@@ -14,7 +14,6 @@ const teamMembers = [
     social: {
       linkedin: "#",
       twitter: "#",
-      website: "#",
     },
   },
   {
@@ -25,16 +24,6 @@ const teamMembers = [
     social: {
       linkedin: "#",
       twitter: "#",
-    },
-  },
-  {
-    name: "Rafael Costa",
-    role: "Diretor de Tecnologia",
-    bio: "Desenvolvedor e entusiasta de novas tecnologias. Responsável por implementar soluções inovadoras que impulsionam os resultados dos clientes.",
-    image: "/placeholder.svg?height=400&width=400",
-    social: {
-      linkedin: "#",
-      website: "#",
     },
   },
   {
@@ -68,7 +57,7 @@ export function TeamSection() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
           {teamMembers.map((member, index) => (
             <motion.div
               key={index}
@@ -106,16 +95,7 @@ export function TeamSection() {
                           <Twitter className="h-4 w-4 text-white" />
                         </a>
                       )}
-                      {member.social.website && (
-                        <a
-                          href={member.social.website}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-black/50 hover:bg-blue-900/80 p-2 rounded-full transition-all"
-                        >
-                          <Globe className="h-4 w-4 text-white" />
-                        </a>
-                      )}
+                      
                     </div>
                   </div>
                   <div className="p-6">
