@@ -63,10 +63,10 @@ export function Sobre() {
               </div>
             </div>
 
-            <Button className="bg-blue-900 hover:bg-blue-800 text-white rounded-full">
+            <a href="/nossa-historia"><Button className="bg-blue-900 hover:bg-blue-800 text-white rounded-full">
               Conheça Nossa História
               <ArrowRight className="ml-2 size-4" />
-            </Button>
+            </Button></a>
           </motion.div>
         </div>
       </div>
