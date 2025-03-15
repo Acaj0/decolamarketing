@@ -23,7 +23,7 @@ export default function NossaHistoria() {
   }
 
   return (
-    <div className="flex min-h-[100dvh] flex-col bg-black text-white">
+    <div className="flex min-h-[100dvh] overflow-x-clip flex-col bg-black text-white">
       <Navbar />
 
       {/* Hero Section */}

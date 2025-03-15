@@ -62,8 +62,17 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-white/10 mt-12 pt-6 text-center text-sm text-white/70">
+        <div className="border-t border-white/10 mt-12 pt-6 text-center text-sm text-white/80">
           <p>&copy; {new Date().getFullYear()} Decola Marketing Digital. Todos os direitos reservados.</p>
+          <div className="text-sm text-gray-500 mt-2 text-center ">
+              <a
+                href="https://www.lumenweb.com.br/"
+                className="hover:underline"
+                target="_blank"
+              >
+                Lumen Desenvolvimento Web
+              </a>
+            </div>
         </div>
       </div>
     </footer>

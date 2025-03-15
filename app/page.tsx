@@ -25,7 +25,7 @@ export default function LandingPage() {
     <div className="flex min-h-[100dvh] flex-col bg-black text-white">
       <Navbar />
 
-      <main className="flex-1">
+      <main className="flex-1 overflow-x-clip">
         <Hero />
         <Diferencial />
         <Servicos />
