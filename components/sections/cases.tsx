@@ -145,7 +145,7 @@ export function Cases() {
             open={selectedCase !== null}
             onOpenChange={() => setSelectedCase(null)}
           >
-            <DialogContent className="max-w-3xl bg-gradient-to-b from-blue-950 to-black border-white/10 p-0">
+            <DialogContent className="md:max-w-3xl max-h-[90vh] max-w-screen md:overflow-clip overflow-y-scroll bg-gradient-to-b from-blue-950 to-black border-white/10 p-0">
               <DialogTitle className="sr-only">
                 {selectedCase.name} - Case de Sucesso
               </DialogTitle>

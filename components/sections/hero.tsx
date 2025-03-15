@@ -33,10 +33,10 @@ export function Hero() {
             Transformamos sua presença digital com estratégias inovadoras e resultados mensuráveis. Chegou a hora de
             elevar sua marca ao próximo nível.
           </p>
-          <Button className="bg-blue-900 hover:bg-blue-800 text-white rounded-full h-14 px-8 text-lg">
+          <a href="#contato"><Button className="bg-blue-900 hover:bg-blue-800 text-white rounded-full h-14 px-8 text-lg">
             Comece Sua Jornada
             <Rocket className="ml-2 size-5" />
-          </Button>
+          </Button></a>
         </motion.div>
       </div>
     </section>

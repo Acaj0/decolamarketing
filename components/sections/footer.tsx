@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import { Instagram, Facebook, Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -37,19 +38,26 @@ export function Footer() {
             <h4 className="font-bold mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-white/70">
               <li>contato@decola.com.br</li>
-              <li>(11) 99999-9999</li>
-              <li>São Paulo, SP</li>
+              <li>(65) 99999-9999</li>
+              <li>Av. General Vale 321, Salas 903 e 1206 - Cuiabá/MT</li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-4">Redes Sociais</h4>
             <div className="flex gap-4">
-              {["Instagram", "Facebook", "LinkedIn"].map((social) => (
-                <Link key={social} href="#" className="text-white/70 hover:text-white transition-colors text-sm">
-                  {social}
-                </Link>
-              ))}
+              <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
+              </Link>
+              <Link href="#" className="text-white/70 hover:text-white transition-colors">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
             </div>
           </div>
         </div>
