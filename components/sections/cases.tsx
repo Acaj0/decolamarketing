@@ -14,6 +14,7 @@ import {
   X,
 } from "lucide-react";
 
+// Case study data
 const caseStudies = [
   {
     id: 1,
